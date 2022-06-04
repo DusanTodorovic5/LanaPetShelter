@@ -1,0 +1,9 @@
+.prijavaButton {
+    background-color: #0ed4aa;
+    margin: 10px;
+    border-color: #0ed4aa; /* ovo je zatamnjena zelena*/
+}
+.prijavaButton:hover {
+    background-color: #0ba383;
+    border-color: #0ba383;
+}
