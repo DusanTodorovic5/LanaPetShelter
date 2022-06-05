@@ -18,6 +18,13 @@ function navbar_setup() {
         $("#ordLogo").css('height', '70');
     }
     $(window).resize(function () {
+        if ($("body").height() > $(window).height()) {
+            $("#footer").removeClass("footer-fix");
+            $("#footer").addClass("footer-rel");
+        } else {
+            $("#footer").removeClass("footer-rel");
+            $("#footer").addClass("footer-fix");
+        }
         if ($(window).width() < 768) {
             $("#large-navbar").css('display', 'none');
             $("#mobile-navbar").css('display', 'block');
@@ -138,7 +145,6 @@ function navbar_setup() {
     } else {
         $("#language-icon").attr("src", path + "assets/rs.svg");
     }
-    console.log(document.location.hostname);
     $("#language-icon").click(function (){
         lang = localStorage.getItem("lang");
         var path = $("#language-icon").attr('href');

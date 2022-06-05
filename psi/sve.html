@@ -9,10 +9,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../js/jquery-3.6.0.js"></script>
+    <script src="../js/zivotinje.js"></script>
     <script src="../js/navbar_setup.js"></script>
-    <script src="../js/index.js"></script>
+    <script src="../js/psi.js"></script>
     <link rel="stylesheet" href="../css/navbar-footer.css">
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/zivotinje.css">
     <link rel="icon" href="../assets/logo.png" type="image/x-icon">
     <title>Psi - Lana</title>
 </head>
@@ -40,33 +41,42 @@
                                 <a class="dropdown-item dropdown-nav dropdown-toggle current-page" id="hoverMenuButton2"
                                     data-bs-toggle="dropdown" href="../psi/sve.html">Psi</a>
                                 <ul class="dropdown-menu dropdown-submenu" id="hoverDropDownMenu2">
-                                    <li><a class="dropdown-item dropdown-nav" href="../psi/doki.html">Labrador Doki</a></li>
-                                    <li><a class="dropdown-item dropdown-nav" href="../psi/teki.html">Ruski terijer Teki</a></li>
-                                    <li><a class="dropdown-item dropdown-nav" href="../psi/saci.html">Šnaucer Šaci</a></li>
+                                    <li><a class="dropdown-item dropdown-nav" href="../psi/doki.html">Labrador Doki</a>
+                                    </li>
+                                    <li><a class="dropdown-item dropdown-nav" href="../psi/teki.html">Ruski terijer
+                                            Teki</a></li>
+                                    <li><a class="dropdown-item dropdown-nav" href="../psi/saci.html">Šnaucer Šaci</a>
+                                    </li>
                                 </ul>
                             </li>
                             <li>
                                 <a class="dropdown-item dropdown-nav dropdown-toggle" id="hoverMenuButton3"
                                     data-bs-toggle="dropdown" href="../macke/sve.html">Mačke</a>
                                 <ul class="dropdown-menu dropdown-submenu" id="hoverDropDownMenu3">
-                                    <li><a class="dropdown-item dropdown-nav" href="../macke/begi.html">Bengalska mačka Begi</a></li>
-                                    <li><a class="dropdown-item dropdown-nav" href="../macke/soki.html">Školdski fold Šoki</a></li>
-                                    <li><a class="dropdown-item dropdown-nav" href="../macke/zoki.html">Sfinks Zoki</a></li>
+                                    <li><a class="dropdown-item dropdown-nav" href="../macke/begi.html">Bengalska mačka
+                                            Begi</a></li>
+                                    <li><a class="dropdown-item dropdown-nav" href="../macke/soki.html">Školdski fold
+                                            Šoki</a></li>
+                                    <li><a class="dropdown-item dropdown-nav" href="../macke/zoki.html">Sfinks Zoki</a>
+                                    </li>
                                 </ul>
                             </li>
                             <li>
                                 <a class="dropdown-item dropdown-nav dropdown-toggle" id="hoverMenuButton4"
                                     data-bs-toggle="dropdown" href="../konji/sve.html">Konji</a>
                                 <ul class="dropdown-menu dropdown-submenu" id="hoverDropDownMenu4">
-                                    <li><a class="dropdown-item dropdown-nav" href="../konji/dragan.html">Dragan</a></li>
+                                    <li><a class="dropdown-item dropdown-nav" href="../konji/dragan.html">Dragan</a>
+                                    </li>
                                     <li><a class="dropdown-item dropdown-nav" href="../konji/zoran.html">Zoran</a></li>
-                                    <li><a class="dropdown-item dropdown-nav" href="../konji/esmeralda.html">Esmeralda</a></li>
+                                    <li><a class="dropdown-item dropdown-nav"
+                                            href="../konji/esmeralda.html">Esmeralda</a></li>
                                 </ul>
                             </li>
                             <li><a class="dropdown-item dropdown-nav dropdown-toggle" id="hoverMenuButton5"
                                     data-bs-toggle="dropdown" href="../kapibare/sve.html">Kapibare</a>
                                 <ul class="dropdown-menu dropdown-submenu" id="hoverDropDownMenu5">
-                                    <li><a class="dropdown-item dropdown-nav" href="../kapibare/rajan.html">Rajan</a></li>
+                                    <li><a class="dropdown-item dropdown-nav" href="../kapibare/rajan.html">Rajan</a>
+                                    </li>
                                     <li><a class="dropdown-item dropdown-nav" href="../kapibare/beri.html">Beri</a></li>
                                     <li><a class="dropdown-item dropdown-nav" href="../kapibare/fica.html">Fića</a></li>
                                 </ul>
@@ -156,11 +166,45 @@
     </nav>
     <!-- OVDE PISES TELO STRANICE-->
     <div class="container">
+        <div class="row form-row">
 
+            <div class="col-6 col-md-3 form-element">
+                <select id="sortiranje" class="form-select form-control">
+                    <option selected>Standardno sortiranje</option>
+                    <option>Po nazivu ↑</option>
+                    <option>Po nazivu ↓</option>
+                    <option>Po starosti ↑</option>
+                    <option>Po starosti ↓</option>
+                </select>
+            </div>
+
+            <div class="col-6 col-md-3 form-element">
+                <select id="godine" class="form-select form-control">
+                    <option selected>Sve starosti</option>
+                    <option>Bebe</option>
+                    <option>Junior</option>
+                    <option>Odrasli</option>
+                    <option>Senior</option>
+                </select>
+            </div>
+
+            <div class="col-6 col-md-3 form-element">
+                <input type="text" class="form-control" id="nazivPretraga" placeholder="Pretražite po nazivu">
+            </div>
+
+            <div class="col-6 col-md-3 form-element">
+                <button type="button" class="btn btn-primary pretraga-button" id="pretragaDugme">Pretraga</button>
+            </div>
+        </div>
+
+        <div class="row" id="holder-zivotinja">
+            
+        </div>
     </div>
 
     <div class="footer-fix" id="footer">
-        Copyright 2022, Душан Тодоровић и Антонија Васиљевић, Одсек за софтверско инжењерство Електротехничког факултета Универзитета у Београду
+        Copyright 2022, Душан Тодоровић и Антонија Васиљевић, Одсек за софтверско инжењерство Електротехничког факултета
+        Универзитета у Београду
     </div>
 </body>
 

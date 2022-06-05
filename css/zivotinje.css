@@ -1,0 +1,52 @@
+.go-to-button {
+    background-color: #0ed4aa;
+    margin: 10px;
+    border-color: #0ed4aa; /* ovo je zatamnjena zelena*/
+}
+.go-to-button:hover {
+    background-color: #0ba383;
+    border-color: #0ba383;
+}
+.go-to-button:focus {
+    background-color: #0ba383;
+    border-color: #0ba383;
+}
+.hoverable-link{
+    color: #5a5766;
+    text-decoration: none;
+}
+.hoverable-link:hover {
+    color: #5a5766;
+    text-decoration: none;
+}
+.hoverable-link-card{
+    margin-top: 10px;
+    color: #5a5766;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+.hoverable-link-card:hover {
+    transform: scale(1.1);
+    color: #5a5766;
+    text-decoration: none;
+}
+.form-row {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.pretraga-button {
+    background-color: #0ed4aa;
+    border-color: #0ed4aa; /* ovo je zatamnjena zelena*/
+}
+.pretraga-button:hover {
+    background-color: #0ba383;
+    border-color: #0ba383;
+}
+.pretraga-button:focus {
+    background-color: #0ba383;
+    border-color: #0ba383;
+}
+
+.form-element {
+    margin-top: 5px;
+}
