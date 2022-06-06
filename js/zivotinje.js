@@ -111,32 +111,32 @@ var zivotinje = [
             {
                 "naziv" : "Rajan",
                 "rasa" : "Velika kapibara",
-                "godine" : 7,
+                "godine" : 5,
                 "pol" : "Mužjak",
-                "tezina" : 27,
-                "opis" : "Lepo kuce",
-                "slika" : "../assets/psi/snaucer1.jpeg",
-                "stranica" : "psi/sve.html"
+                "tezina" : 15,
+                "opis" : "Jednostavno voli vodu. Uspeo je i da nađe prijatelje. Jako razigrana kapibara",
+                "slika" : "../assets/kapibare/rajan1.jpg",
+                "stranica" : "rajan.html"
             },
             {
                 "naziv" : "Beri",
                 "rasa" : "Standardna kapibara",
-                "godine" : 7,
+                "godine" : 2,
                 "pol" : "Ženka",
-                "tezina" : 27,
-                "opis" : "Lepo kuce",
-                "slika" : "../assets/psi/snaucer1.jpeg",
-                "stranica" : "psi/sve.html"
+                "tezina" : 7,
+                "opis" : "Prelepa ženkica standardne kapibare. Sitna je i jako pristojna.",
+                "slika" : "../assets/kapibare/beri1.jpg",
+                "stranica" : "beri.html"
             },
             {
                 "naziv" : "Fića",
                 "rasa" : "Velika kapibara",
-                "godine" : 7,
+                "godine" : 3,
                 "pol" : "Mužjak",
-                "tezina" : 27,
-                "opis" : "Lepo kuce",
-                "slika" : "../assets/psi/snaucer1.jpeg",
-                "stranica" : "psi/sve.html"
+                "tezina" : 16,
+                "opis" : "Jako druželjubiva kapibara. Krupnije građe, jako je miran.",
+                "slika" : "../assets/kapibare/fica1.jpg",
+                "stranica" : "fica.html"
             }
         ]
     }
