@@ -41,32 +41,32 @@ var zivotinje = [
             {
                 "naziv" : "Begi",
                 "rasa" : "Bengalska mačka",
-                "godine" : 7,
-                "pol" : "Mužjak",
-                "tezina" : 27,
-                "opis" : "Lepo kuce",
-                "slika" : "../assets/psi/snaucer1.jpeg",
-                "stranica" : "psi/sve.html"
+                "godine" : 10,
+                "pol" : "Ženka",
+                "tezina" : 5,
+                "opis" : "Jako lepa i graciozna bengalska mačka. Obožava da se mazi!",
+                "slika" : "../assets/macke/begi1.jpg",
+                "stranica" : "begi.html"
             },
             {
                 "naziv" : "Šoki",
-                "rasa" : "Šklodski fold",
-                "godine" : 7,
+                "rasa" : "Škotski fold",
+                "godine" : 6,
                 "pol" : "Ženka",
-                "tezina" : 27,
-                "opis" : "Lepo kuce",
-                "slika" : "../assets/psi/snaucer1.jpeg",
-                "stranica" : "psi/sve.html"
+                "tezina" : 6,
+                "opis" : "Neverovatno umilljata mačka sive boje. Jako je nežna.",
+                "slika" : "../assets/macke/soki1.jpg",
+                "stranica" : "soki.html"
             },
             {
                 "naziv" : "Zoki",
                 "rasa" : "Sfinks",
-                "godine" : 7,
+                "godine" : 3,
                 "pol" : "Mužjak",
-                "tezina" : 27,
-                "opis" : "Lepo kuce",
-                "slika" : "../assets/psi/snaucer1.jpeg",
-                "stranica" : "psi/sve.html"
+                "tezina" : 7,
+                "opis" : "Neobična mačka sive boje. Ponaša se kao mali pas.",
+                "slika" : "../assets/macke/zoki1.jpg",
+                "stranica" : "zoki.html"
             }
         ]
     },
@@ -75,33 +75,33 @@ var zivotinje = [
         "oglasi" : [
             {
                 "naziv" : "Dragan",
-                "rasa" : "Labrador",
-                "godine" : 7,
+                "rasa" : "Konj",
+                "godine" : 4,
                 "pol" : "Mužjak",
-                "tezina" : 27,
-                "opis" : "Lepo kuce",
-                "slika" : "../assets/psi/snaucer1.jpeg",
-                "stranica" : "psi/sve.html"
+                "tezina" : 295,
+                "opis" : "Pravi plemenit srpski pastuv. Retka kombinacija boja.",
+                "slika" : "../assets/konji/dragan1.jpg",
+                "stranica" : "dragan.html"
             },
             {
                 "naziv" : "Zoran",
-                "rasa" : "Ruski terijer",
-                "godine" : 7,
-                "pol" : "Ženka",
-                "tezina" : 27,
-                "opis" : "Lepo kuce",
-                "slika" : "../assets/psi/snaucer1.jpeg",
-                "stranica" : "psi/sve.html"
+                "rasa" : "Konj",
+                "godine" : 14,
+                "pol" : "Mužjak",
+                "tezina" : 305,
+                "opis" : "Krupan konj braon boje. Miran je i obožava društvo.",
+                "slika" : "../assets/konji/zoran1.jpg",
+                "stranica" : "zoran.html"
             },
             {
                 "naziv" : "Esmeralda",
-                "rasa" : "Šnaucer",
-                "godine" : 7,
-                "pol" : "Mužjak",
-                "tezina" : 27,
-                "opis" : "Lepo kuce",
-                "slika" : "../assets/psi/snaucer1.jpeg",
-                "stranica" : "psi/sve.html"
+                "rasa" : "Konj",
+                "godine" : 8,
+                "pol" : "Ženka",
+                "tezina" : 280,
+                "opis" : "Jako plemenita ženka konja. Izgleda kao bela griva. ",
+                "slika" : "../assets/konji/esmeralda1.jpg",
+                "stranica" : "esmeralda.html"
             }
         ]
     },
