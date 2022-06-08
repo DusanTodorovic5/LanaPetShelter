@@ -7,3 +7,8 @@
     background-color: #0ba383;
     border-color: #0ba383;
 }
+
+.prijavaButton:focus {
+    background-color: #0ba383;
+    border-color: #0ba383;
+}

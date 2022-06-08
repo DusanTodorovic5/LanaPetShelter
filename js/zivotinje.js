@@ -114,7 +114,7 @@ var zivotinje = [
                 "godine" : 5,
                 "pol" : "Mužjak",
                 "tezina" : 15,
-                "opis" : "Jednostavno voli vodu. Uspeo je i da nađe prijatelje. Jako razigrana kapibara",
+                "opis" : "Jednostavno voli vodu. Uspeo je i da nađe prijatelje. Jako razigran.",
                 "slika" : "../assets/kapibare/rajan1.jpg",
                 "stranica" : "rajan.html"
             },
