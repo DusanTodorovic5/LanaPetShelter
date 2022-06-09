@@ -35,5 +35,4 @@ $(document).ready(function () {
         localStorage.setItem("index", izgubljene.length - 3);
         window.location.href = "oglas.html";
     });
-
 });
