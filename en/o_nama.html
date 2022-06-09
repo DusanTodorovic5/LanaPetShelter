@@ -10,10 +10,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/navbar_setup.js"></script>
-    <script src="js/index.js"></script>
+    <script src="js/oglasi.js"></script>
+    <script src="js/oglas.js"></script>
     <link rel="stylesheet" href="css/navbar-footer.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="icon" href="assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/o_nama.css">
+    <link rel="icon" href="../assets/logo.png" type="image/x-icon">
     <title>O nama - Lana</title>
 </head>
 
@@ -21,8 +23,8 @@
     <nav class="navbar navbar-expand-md bg-spec navbar-light justify-content-between" id="large-navbar">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img class="logo-navbar" id="specialLogo" src="assets/logo.png" alt="" width="110" height="110">
-                <img src="assets/logo.png" id="ordLogo" alt="" width="110" height="70">
+                <img class="logo-navbar" id="specialLogo" src="../assets/logo.png" alt="" width="110" height="110">
+                <img src="../assets/logo.png" id="ordLogo" alt="" width="110" height="70">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -97,7 +99,7 @@
                         <a class="nav-link" href="prijava.html">Prijavi se</a>
                     </li>
                     <li class="nav-item">
-                        <img class="nav-link" id="language-icon" src="assets/rs.svg" width="40px" alt="">
+                        <img class="nav-link" id="language-icon" src="../assets/rs.svg" width="40px" alt="">
                     </li>
                     
                 </ul>
@@ -107,7 +109,7 @@
     <nav class="navbar navbar-expand-md bg-spec navbar-light" id="mobile-navbar">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img src="assets/logo.png" id="ordLogo" alt="" width="100" height="100">
+                <img src="../assets/logo.png" id="ordLogo" alt="" width="100" height="100">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -149,7 +151,7 @@
                         <a class="nav-link" href="prijava.html">Prijavi se</a>
                     </li>
                     <li class="nav-item">
-                        <img class="nav-link" id="language-icon" src="assets/rs.svg" width="40px" alt="">
+                        <img class="nav-link" id="language-icon" src="../assets/rs.svg" width="40px" alt="">
                     </li>
                 </ul>
             </div>
@@ -157,7 +159,85 @@
     </nav>
     <!-- OVDE PISES TELO STRANICE-->
     <div class="container">
-
+        <div class="row">
+            <div class="col breadcrumb">
+                <a class="breadcrumb-item" href="index.html">Početna</a>
+                <a class="breadcrumb-item"  href="#">O nama</a>
+            </div>
+        </div>
+        <br>
+        <div class="row" id="prvi">
+            <img class="img-fluid" src="../assets/pets.jpg" alt="" id="zivotinjice">
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h1 class="display-4 fw-normal">Udomi, ne kupuj!</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p class="lead fw-normal">Azil za životinje Lana je organizacija civilnog društva koja se bavi zaštitom
+                    životinja, zagovarajući ideju prava životinja.</p>
+            </div>
+        </div>
+        <div class="row">
+            <h6 class="display-6">Zašto baš mi?</h6>
+            <div class="col-md-6 col-sm-12 col-12">
+                <p>Azil za životinje Lana je azil za zaštitu napuštenih, kako zdravih, tako i bolesnih, invalidnih i
+                    starih životinja, koji se nalazi
+                    u Beogradu. Azil je nastao pre 20 godina i formalno je registrovan kao udruženje
+                    za zaštitu životinja. Osnovala ga je Marija Marković samostalno, bez ičije pomoći,
+                    a danas u azilu živi oko 400 životinja. Iako postoji preko 20 godina, azil se svakodnevno bori za
+                    suvu egzistenciju, a najveći problem predstavlja, hrana, jer, kako bi se
+                    rehranila sve životinje, dnevno potrebno preko 100 kilograma hrane. Drugi problem predstavlja zima
+                    koja tek dolazi, pa je životinjama potrebno i sklonište od hladnoće i vetra.
+                    Upravo iz ovih razloga pokrenuta je i akcija pružanja pomoći prihvatilištu. Sajt je uveliko pomogao
+                    daljem napretku azila.</p>
+            </div>
+            <div class="col-md-6 col-sm-12 col-12">
+                <img src="../assets/rescue.jpg" class="img-responsive" style="float:right">
+            </div>
+        </div>
+        <div class="row">
+            <h6 class="display-6">Naše nagrade</h6>
+            <div class="col-md-6 col-sm-12 col-12">
+                <img src="../assets/nagrada.jpg" class="img-responsive" style="float:left">
+            </div>
+            <div class="col-md-6 col-sm-12 col-12">
+                <p>Što se tiče udomljavanja, protekla godina
+                    se može smatrati izuzetno uspešnom, jer je više od 50 pasa pod našom zaštitom pronašlo vlasnike.
+                    <br>Iz tog razloga, naš azil je osvojio prestižnu nagradu na konferenciji
+                    u Minhenu pod nazivom "Find your pets". Dobijene su nagrade za izuzetnu urednost i čistoću,
+                    ophođenje prema životinjama kao i
+                    impresivan broj udomljenih životinja u roku od samo godinu dana. <br>
+                    Dobijena je nagrada i za "Najuredniji azil u Srbiji". <br>
+                    Skreće se pažnja na to da je sajt u mnogome doprineo promociji azila!<br>
+                    Planira se prijavljivanje na takmičenje koje će se održati 20. juna 2023. godine, kada će azil biti
+                    znatno poboljšan.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <h6 class="display-6">Kako do nas?</h6>
+            <div class="col-md-6 col-sm-12 col-12">
+                <h3 style=" text-align:center;margin-top: 20px;">Kontakt</h3>
+                <p id="p1">+381655552233</p>
+                <hr>
+                <h3 style="text-align:center">Adresa</h3>
+                <p id="p2">Đevđelijska 8, Beograd</p>
+                <hr>
+                <br>
+                <button class="btn btn-success btn-lg adopt-button" id="udomi"
+                    onclick='location.href="zivotinje.html"'>Udomi još danas!</button>
+            </div>
+            <div class="col-md-6 col-sm-12 col-12">
+                <div id="map-container-google-1" class="z-depth-1-half map-container">
+                    <iframe
+                        src="https://maps.google.com/maps?q=%C4%90ev%C4%91elijska%208,Beograd&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="footer-fix" id="footer">

@@ -89,5 +89,13 @@
 
 .current-page {
     box-shadow: -3px 9px 0px -6px #0ba382;
-    
+}
+.breadcrumb {
+    margin-top: 10px;
+    color: #5a5766;
+    text-decoration: none;
+}
+.breadcrumb-item {
+    color: #5a5766;
+    text-decoration: none;
 }

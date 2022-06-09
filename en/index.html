@@ -10,10 +10,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/navbar_setup.js"></script>
-    <script src="js/index.js"></script>
+    <script src="js/oglasi.js"></script>
+    <script src="js/pocetna.js"></script>
     <link rel="stylesheet" href="css/navbar-footer.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="icon" href="assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/zivotinje.css">
+    <link rel="icon" href="../assets/logo.png" type="image/x-icon">
     <title>Lana</title>
 </head>
 
@@ -21,8 +23,8 @@
     <nav class="navbar navbar-expand-md bg-spec navbar-light justify-content-between" id="large-navbar">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img class="logo-navbar" id="specialLogo" src="assets/logo.png" alt="" width="110" height="110">
-                <img src="assets/logo.png" id="ordLogo" alt="" width="110" height="70">
+                <img class="logo-navbar" id="specialLogo" src="../assets/logo.png" alt="" width="110" height="110">
+                <img src="../assets/logo.png" id="ordLogo" alt="" width="110" height="70">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -97,7 +99,7 @@
                         <a class="nav-link" href="prijava.html">Prijavi se</a>
                     </li>
                     <li class="nav-item">
-                        <img class="nav-link" id="language-icon" src="assets/rs.svg" width="40px" alt="">
+                        <img class="nav-link" id="language-icon" src="../assets/gb.svg" width="40px" alt="">
                     </li>
                 </ul>
             </span>
@@ -106,7 +108,7 @@
     <nav class="navbar navbar-expand-md bg-spec navbar-light" id="mobile-navbar">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="assets/logo.png" id="ordLogo" alt="" width="100" height="100">
+                <img src="../assets/logo.png" id="ordLogo" alt="" width="100" height="100">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -148,7 +150,7 @@
                         <a class="nav-link" href="prijava.html">Prijavi se</a>
                     </li>
                     <li class="nav-item">
-                        <img class="nav-link" id="language-icon" src="assets/rs.svg" width="40px" alt="">
+                        <img class="nav-link" id="language-icon" src="../assets/rs.svg" width="40px" alt="">
                     </li>
                 </ul>
             </div>
@@ -156,6 +158,38 @@
     </nav>
     <!-- OVDE PISES TELO STRANICE-->
     <div class="container">
+        <div class="row text-center align-content-center justify-content-center">
+            <div class="col-12 col-sm-6 col-md-3 d-flex align-items-stretch">
+                <a class="hoverable-link" href="#" id="outterA1">
+                    <div class="card hoverable-link-card">
+                        <div class="card-body d-flex flex-column align-items-stretch">
+                            <p class="card-text" id="tekst1"></p>
+                            <a href="#" class="btn btn-success go-to-button mt-auto" id="innerA1">Pregledaj oglas</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 d-flex align-items-stretch">
+                <a class="hoverable-link" href="#" id="outterA2">
+                    <div class="card hoverable-link-card">
+                        <div class="card-body d-flex flex-column align-items-stretch">
+                            <p class="card-text" id="tekst2"></p>
+                            <a href="#" class="btn btn-success go-to-button mt-auto" id="innerA2">Pregledaj oglas</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 d-flex align-items-stretch">
+                <a class="hoverable-link" href="#" id="outterA3">
+                    <div class="card hoverable-link-card">
+                        <div class="card-body d-flex flex-column align-items-stretch">
+                            <p class="card-text" id="tekst3"></p>
+                            <a href="#" class="btn btn-success go-to-button mt-auto" id="innerA3">Pregledaj oglas</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
 
     </div>
 

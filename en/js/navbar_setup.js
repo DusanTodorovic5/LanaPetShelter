@@ -18,6 +18,13 @@ function navbar_setup() {
         $("#ordLogo").css('height', '70');
     }
     $(window).resize(function () {
+        if ($("body").height() > $(window).height()) {
+            $("#footer").removeClass("footer-fix");
+            $("#footer").addClass("footer-rel");
+        } else {
+            $("#footer").removeClass("footer-rel");
+            $("#footer").addClass("footer-fix");
+        }
         if ($(window).width() < 768) {
             $("#large-navbar").css('display', 'none');
             $("#mobile-navbar").css('display', 'block');
@@ -130,24 +137,25 @@ function navbar_setup() {
         $("#footer").addClass("footer-fix");
     }
     var path = $("#language-icon").attr('href');
-        if (typeof path == 'undefined'){
-            path = "";
-        }
-    if (lang == "en") {
-        $("#language-icon").attr("src", path + "assets/gb.svg");
-    } else {
-        $("#language-icon").attr("src", path + "assets/rs.svg");
+    if (typeof path == 'undefined'){
+        path = "";
     }
-    console.log(document.location.hostname);
+    if (lang == "en") {
+        $("#language-icon").attr("src", path + "../assets/gb.svg");
+    } else {
+        $("#language-icon").attr("src", path + "../assets/rs.svg");
+    }
     $("#language-icon").click(function (){
         lang = localStorage.getItem("lang");
         var path = $("#language-icon").attr('href');
         if (typeof path == 'undefined'){
             path = "";
         }
+        console.log(lang);
         if (lang == "rs") {
             lang = "en";
-            $("#language-icon").attr("src", path + "assets/gb.svg");
+            localStorage.setItem("lang",lang);
+            $("#language-icon").attr("src", path + "../assets/gb.svg");
             var windowPath = window.location.pathname.split("/");
             var page = windowPath.pop();
             var pageFolder = windowPath.pop();
@@ -158,7 +166,8 @@ function navbar_setup() {
             }
         } else {
             lang = "rs";
-            $("#language-icon").attr("src", path + "assets/rs.svg");
+            localStorage.setItem("lang",lang);
+            $("#language-icon").attr("src", path + "../assets/rs.svg");
             var windowPath = window.location.pathname.split("/");
             var page = windowPath.pop();
             var pageFolder = windowPath.pop();
@@ -168,6 +177,5 @@ function navbar_setup() {
                 window.location.href = "../../" + pageFolder + "/" + page;
             }
         }
-        localStorage.setItem("lang",lang);
     });
 }

@@ -10,21 +10,21 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/navbar_setup.js"></script>
-    <script src="js/oglasi.js"></script>
-    <script src="js/pocetna.js"></script>
+
+    <script src="js/oglas.js"></script>
     <link rel="stylesheet" href="css/navbar-footer.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/zivotinje.css">
-    <link rel="icon" href="assets/logo.png" type="image/x-icon">
-    <title>Lana</title>
+    <link rel="stylesheet" href="css/oglasi.css">
+    <link rel="icon" href="../assets/logo.png" type="image/x-icon">
+    <title>Izguljene životinje - Lana</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-md bg-spec navbar-light justify-content-between" id="large-navbar">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img class="logo-navbar" id="specialLogo" src="assets/logo.png" alt="" width="110" height="110">
-                <img src="assets/logo.png" id="ordLogo" alt="" width="110" height="70">
+                <img class="logo-navbar" id="specialLogo" src="../assets/logo.png" alt="" width="110" height="110">
+                <img src="../assets/logo.png" id="ordLogo" alt="" width="110" height="70">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -32,7 +32,7 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link current-page" href="#">Početna</a>
+                        <a class="nav-link" href="index.html">Početna</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="hoverMenuButton1" href="zivotinje.html" role="button"
@@ -42,8 +42,10 @@
                                 <a class="dropdown-item dropdown-nav dropdown-toggle" id="hoverMenuButton2"
                                     data-bs-toggle="dropdown" href="psi/sve.html">Psi</a>
                                 <ul class="dropdown-menu dropdown-submenu" id="hoverDropDownMenu2">
-                                    <li><a class="dropdown-item dropdown-nav" href="psi/doki.html">Labrador Doki</a></li>
-                                    <li><a class="dropdown-item dropdown-nav" href="psi/teki.html">Ruski terijer Teki</a></li>
+                                    <li><a class="dropdown-item dropdown-nav" href="psi/doki.html">Labrador Doki</a>
+                                    </li>
+                                    <li><a class="dropdown-item dropdown-nav" href="psi/teki.html">Ruski terijer
+                                            Teki</a></li>
                                     <li><a class="dropdown-item dropdown-nav" href="psi/saci.html">Šnaucer Šaci</a></li>
                                 </ul>
                             </li>
@@ -51,9 +53,12 @@
                                 <a class="dropdown-item dropdown-nav dropdown-toggle" id="hoverMenuButton3"
                                     data-bs-toggle="dropdown" href="macke/sve.html">Mačke</a>
                                 <ul class="dropdown-menu dropdown-submenu" id="hoverDropDownMenu3">
-                                    <li><a class="dropdown-item dropdown-nav" href="macke/begi.html">Bengalska mačka Begi</a></li>
-                                    <li><a class="dropdown-item dropdown-nav" href="macke/soki.html">Školdski fold Šoki</a></li>
-                                    <li><a class="dropdown-item dropdown-nav" href="macke/zoki.html">Sfinks Zoki</a></li>
+                                    <li><a class="dropdown-item dropdown-nav" href="macke/begi.html">Bengalska mačka
+                                            Begi</a></li>
+                                    <li><a class="dropdown-item dropdown-nav" href="macke/soki.html">Školdski fold
+                                            Šoki</a></li>
+                                    <li><a class="dropdown-item dropdown-nav" href="macke/zoki.html">Sfinks Zoki</a>
+                                    </li>
                                 </ul>
                             </li>
                             <li>
@@ -62,7 +67,8 @@
                                 <ul class="dropdown-menu dropdown-submenu" id="hoverDropDownMenu4">
                                     <li><a class="dropdown-item dropdown-nav" href="konji/dragan.html">Dragan</a></li>
                                     <li><a class="dropdown-item dropdown-nav" href="konji/zoran.html">Zoran</a></li>
-                                    <li><a class="dropdown-item dropdown-nav" href="konji/esmeralda.html">Esmeralda</a></li>
+                                    <li><a class="dropdown-item dropdown-nav" href="konji/esmeralda.html">Esmeralda</a>
+                                    </li>
                                 </ul>
                             </li>
                             <li><a class="dropdown-item dropdown-nav dropdown-toggle" id="hoverMenuButton5"
@@ -76,11 +82,12 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="izgubljene_zivotinje.html">Izgubljene životinje</a>
+                        <a class="nav-link current-page" href="izgubljene_zivotinje.html">Izgubljene životinje</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="o_nama.html">O nama</a>
                     </li>
+
                 </ul>
 
             </div>
@@ -99,7 +106,7 @@
                         <a class="nav-link" href="prijava.html">Prijavi se</a>
                     </li>
                     <li class="nav-item">
-                        <img class="nav-link" id="language-icon" src="assets/rs.svg" width="40px" alt="">
+                        <img class="nav-link" id="language-icon" src="../assets/rs.svg" width="40px" alt="">
                     </li>
                 </ul>
             </span>
@@ -108,7 +115,7 @@
     <nav class="navbar navbar-expand-md bg-spec navbar-light" id="mobile-navbar">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="assets/logo.png" id="ordLogo" alt="" width="100" height="100">
+                <img src="../assets/logo.png" id="ordLogo" alt="" width="100" height="100">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -116,7 +123,7 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link current-page" href="#">Početna</a>
+                        <a class="nav-link" href="#">Početna</a>
                     </li>
                     <li class="nav-item dropdown align-content-end">
                         <span id="small-flex-nav">
@@ -132,7 +139,7 @@
                         </span>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="izgubljene_zivotinje.html">Izgubljene životinje</a>
+                        <a class="nav-link current-page" href="izgubljene_zivotinje.html">Izgubljene životinje</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="o_nama.html">O nama</a>
@@ -150,51 +157,61 @@
                         <a class="nav-link" href="prijava.html">Prijavi se</a>
                     </li>
                     <li class="nav-item">
-                        <img class="nav-link" id="language-icon" src="assets/rs.svg" width="40px" alt="">
+                        <img class="nav-link" id="language-icon" src="../assets/rs.svg" width="40px" alt="">
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- OVDE PISES TELO STRANICE-->
-    <div class="container">
-        <div class="row text-center align-content-center justify-content-center">
-            <div class="col-12 col-sm-6 col-md-3 d-flex align-items-stretch">
-                <a class="hoverable-link" href="#" id="outterA1">
-                    <div class="card hoverable-link-card">
-                        <div class="card-body d-flex flex-column align-items-stretch">
-                            <p class="card-text" id="tekst1"></p>
-                            <a href="#" class="btn btn-success go-to-button mt-auto" id="innerA1">Pregledaj oglas</a>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-12 col-sm-6 col-md-3 d-flex align-items-stretch">
-                <a class="hoverable-link" href="#" id="outterA2">
-                    <div class="card hoverable-link-card">
-                        <div class="card-body d-flex flex-column align-items-stretch">
-                            <p class="card-text" id="tekst2"></p>
-                            <a href="#" class="btn btn-success go-to-button mt-auto" id="innerA2">Pregledaj oglas</a>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-12 col-sm-6 col-md-3 d-flex align-items-stretch">
-                <a class="hoverable-link" href="#" id="outterA3">
-                    <div class="card hoverable-link-card">
-                        <div class="card-body d-flex flex-column align-items-stretch">
-                            <p class="card-text" id="tekst3"></p>
-                            <a href="#" class="btn btn-success go-to-button mt-auto" id="innerA3">Pregledaj oglas</a>
-                        </div>
-                    </div>
-                </a>
+    <div class="container" id="holder-komentari">
+        <div class="row">
+            <div class="col breadcrumb">
+                <a class="breadcrumb-item" href="index.html">Početna</a>
+                <a class="breadcrumb-item" href="#">Izgubljene životinje</a>
             </div>
         </div>
-
+        <div class="row">
+            <div class="col text-center">
+                <h1 id="naslov">Naslov</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h3 id="opis">Ovde ide opis oglasa</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-end">
+                <h3 id="kontakt">Kontakt</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <h3>Komentari: </h3>
+            </div>
+            <div class="col-6 text-end">
+                <button id="printaj" class="btn btn-success float-end go-to-button">Odstampaj oglas</button>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-9 mx-auto">
+                <div class="input-group">
+                    <textarea class="form-control" id="tekst-komentara" aria-label="Postavite tekst oglasa"
+                        placeholder="Tekst komentara"></textarea>
+                </div>
+            </div>
+            <div class="col-3 text-end">
+                <button type="" class="btn btn-primary go-to-button" id="ostaviKomentar">Ostavite komentar</button>
+            </div>
+        </div>
+        <br>
     </div>
 
     <div class="footer-fix" id="footer">
-        Copyright 2022, Душан Тодоровић и Антонија Васиљевић, Одсек за софтверско инжењерство Електротехничког факултета Универзитета у Београду
+        Copyright 2022, Душан Тодоровић и Антонија Васиљевић, Одсек за софтверско инжењерство Електротехничког факултета
+        Универзитета у Београду
     </div>
 </body>
 

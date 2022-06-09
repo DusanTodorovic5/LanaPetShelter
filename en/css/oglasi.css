@@ -1,14 +1,22 @@
-.prijavaButton {
+.go-to-button {
     background-color: #0ed4aa;
     margin: 10px;
     border-color: #0ed4aa; /* ovo je zatamnjena zelena*/
+    margin: 2px;
 }
-.prijavaButton:hover {
+.go-to-button:hover {
     background-color: #0ba383;
     border-color: #0ba383;
+    margin: 2px;
 }
-
-.prijavaButton:focus {
+.marginica {
+    margin-top: 5px;
+    transition: all .2s ease-in-out;
+}
+.marginica:hover {
+    transform: scale(1.05);
+}
+.go-to-button:focus {
     background-color: #0ba383;
     border-color: #0ba383;
 }

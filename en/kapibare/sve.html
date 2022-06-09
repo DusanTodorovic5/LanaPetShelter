@@ -10,10 +10,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../js/jquery-3.6.0.js"></script>
     <script src="../js/navbar_setup.js"></script>
-    <script src="../js/index.js"></script>
+    <script src="../js/zivotinje.js"></script>
+    <script src="../js/kapibare.js"></script>
     <link rel="stylesheet" href="../css/navbar-footer.css">
-    <link rel="stylesheet" href="../css/index.css">
-    <link rel="icon" href="../assets/logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="../css/zivotinje.css">
+    <link rel="icon" href="../../assets/logo.png" type="image/x-icon">
     <title>Kapibare - Lana</title>
 </head>
 
@@ -21,8 +23,8 @@
     <nav class="navbar navbar-expand-md bg-spec navbar-light justify-content-between" id="large-navbar">
         <div class="container">
             <a class="navbar-brand" href="../index.html">
-                <img class="logo-navbar" id="specialLogo" src="../assets/logo.png" alt="" width="110" height="110">
-                <img src="../assets/logo.png" id="ordLogo" alt="" width="110" height="70">
+                <img class="logo-navbar" id="specialLogo" src="../../assets/logo.png" alt="" width="110" height="110">
+                <img src="../../assets/logo.png" id="ordLogo" alt="" width="110" height="70">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -97,7 +99,7 @@
                         <a class="nav-link" href="../prijava.html">Prijavi se</a>
                     </li>
                     <li class="nav-item">
-                        <img class="nav-link" href="../" id="language-icon" src="../assets/rs.svg" width="40px" alt="">
+                        <img class="nav-link" href="../" id="language-icon" src="../../assets/rs.svg" width="40px" alt="">
                     </li>
                 </ul>
             </span>
@@ -106,7 +108,7 @@
     <nav class="navbar navbar-expand-md bg-spec navbar-light" id="mobile-navbar">
         <div class="container">
             <a class="navbar-brand" href="../index.html">
-                <img src="../assets/logo.png" id="ordLogo" alt="" width="100" height="100">
+                <img src="../../assets/logo.png" id="ordLogo" alt="" width="100" height="100">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -148,7 +150,7 @@
                         <a class="nav-link" href="../prijava.html">Prijavi se</a>
                     </li>
                     <li class="nav-item">
-                        <img class="nav-link" href="../" id="language-icon" src="../assets/rs.svg" width="40px" alt="">
+                        <img class="nav-link" href="../" id="language-icon" src="../../assets/rs.svg" width="40px" alt="">
                     </li>
                 </ul>
             </div>
@@ -156,7 +158,47 @@
     </nav>
     <!-- OVDE PISES TELO STRANICE-->
     <div class="container">
+        <div class="row">
+            <div class="col breadcrumb">
+                <a class="breadcrumb-item" href="../index.html">Početna</a>
+                <a class="breadcrumb-item"  href="../zivotinje.html">Životinje</a>
+                <a class="breadcrumb-item"  href="sve.html">Kapibare</a>
+            </div>
+        </div>
+        <div class="row form-row">
 
+            <div class="col-6 col-md-3 form-element">
+                <select id="sortiranje" class="form-select form-control">
+                    <option selected>Standardno sortiranje</option>
+                    <option>Po nazivu ↑</option>
+                    <option>Po nazivu ↓</option>
+                    <option>Po starosti ↑</option>
+                    <option>Po starosti ↓</option>
+                </select>
+            </div>
+
+            <div class="col-6 col-md-3 form-element">
+                <select id="godine" class="form-select form-control">
+                    <option selected>Sve starosti</option>
+                    <option>Bebe</option>
+                    <option>Junior</option>
+                    <option>Odrasli</option>
+                    <option>Senior</option>
+                </select>
+            </div>
+
+            <div class="col-6 col-md-3 form-element">
+                <input type="text" class="form-control" id="nazivPretraga" placeholder="Pretražite po imenu">
+            </div>
+
+            <div class="col-6 col-md-3 form-element">
+                <button type="button" class="btn btn-success pretraga-button" id="pretragaDugme">Pretraga</button>
+            </div>
+        </div>
+
+        <div class="row" id="holder-zivotinja">
+            
+        </div>
     </div>
 
     <div class="footer-fix" id="footer">

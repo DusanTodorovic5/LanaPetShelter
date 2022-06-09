@@ -10,10 +10,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/navbar_setup.js"></script>
-    <script src="js/index.js"></script>
+    <script src="js/dodaj_oglas.js"></script>
     <link rel="stylesheet" href="css/navbar-footer.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="icon" href="assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/prijava.css">
+    <link rel="icon" href="../assets/logo.png" type="image/x-icon">
     <title>Dodaj oglas - Lana</title>
 </head>
 
@@ -21,8 +22,8 @@
     <nav class="navbar navbar-expand-md bg-spec navbar-light justify-content-between" id="large-navbar">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img class="logo-navbar" id="specialLogo" src="assets/logo.png" alt="" width="110" height="110">
-                <img src="assets/logo.png" id="ordLogo" alt="" width="110" height="70">
+                <img class="logo-navbar" id="specialLogo" src="../assets/logo.png" alt="" width="110" height="110">
+                <img src="../assets/logo.png" id="ordLogo" alt="" width="110" height="70">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -97,7 +98,7 @@
                         <a class="nav-link" href="prijava.html">Prijavi se</a>
                     </li>
                     <li class="nav-item">
-                        <img class="nav-link" id="language-icon" src="assets/rs.svg" width="40px" alt="">
+                        <img class="nav-link" id="language-icon" src="../assets/rs.svg" width="40px" alt="">
                     </li>
                 </ul>
             </span>
@@ -106,7 +107,7 @@
     <nav class="navbar navbar-expand-md bg-spec navbar-light" id="mobile-navbar">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img src="assets/logo.png" id="ordLogo" alt="" width="100" height="100">
+                <img src="../assets/logo.png" id="ordLogo" alt="" width="100" height="100">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -148,7 +149,7 @@
                         <a class="nav-link" href="prijava.html">Prijavi se</a>
                     </li>
                     <li class="nav-item">
-                        <img class="nav-link" id="language-icon" src="assets/rs.svg" width="40px" alt="">
+                        <img class="nav-link" id="language-icon" src="../assets/rs.svg" width="40px" alt="">
                     </li>
                 </ul>
             </div>
@@ -156,8 +157,28 @@
     </nav>
     <!-- OVDE PISES TELO STRANICE-->
     <div class="container">
+        <div class="row">
+            <div class="col breadcrumb">
+                <a class="breadcrumb-item" href="index.html">Početna</a>
+                <a class="breadcrumb-item"  href="#">Dodaj oglas</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6 mx-auto text-center">
+                <div class="input-group">
+                    <textarea class="form-control" id="opis" aria-label="Postavite tekst oglasa" placeholder="Postavite tekst oglasa"></textarea>
+                  </div>
+                    <div class="form-group">
+                      <label for="kontakt-field">Kontakt: </label>
+                      <input type="text" class="form-control" id="kontakt-field" placeholder="Osatavite kontakt telefon">
+                    </div>
+                    <button type="" class="btn btn-primary prijavaButton" id="prijavaButtomElement">Dodaj Oglas</button>
+            </div>
+        </div>
 
     </div>
+    
 
     <div class="footer-fix" id="footer">
         Copyright 2022, Душан Тодоровић и Антонија Васиљевић, Одсек за софтверско инжењерство Електротехничког факултета Универзитета у Београду
