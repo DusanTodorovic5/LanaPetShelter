@@ -45,5 +45,21 @@ $(document).ready(function () {
         el.appendTo("#holder-komentari");
     }
 
+    $("#ostaviKomentar").click(function (){
+        if (localStorage.getItem("prijavljen") == null){
+            return;
+        }
+        var tekst = $("#tekst-komentara").val();
+        if (tekst == "" || tekst == null) {
+            return;
+        }
+        izgubljene[index].komentari.push({
+            "korisnik" : "test",
+            "text" : tekst
+        });
+        localStorage.setItem("oglasi",JSON.stringify(izgubljene));
+        location.reload();
+    });
+
     navbar_setup();
 });

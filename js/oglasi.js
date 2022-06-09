@@ -15,14 +15,7 @@ var oglasi = [
         "kontakt" : "12345678",
         "opis" : "Akita Tobi, nestao pre 3 dana. Krupan je i druzeljubiv.",
         "komentari" : [
-            {
-                "korisnik" : "test",
-                "text" : "Videla sam jednuadafafadsf belu macku kako luta blizu Slavije"
-            }, 
-            {
-                "korisnik" : "test",
-                "text" : "Bele macksadfasfasfaa je setala na parkiralistu Baba Visnjine!"
-            }
+
         ]
     },
     {
@@ -36,14 +29,6 @@ var oglasi = [
             }, 
             {
                 "korisnik" : "Dusan",
-                "text" : "Bele macka je setala na parkiralistu Baba Visnjine!"
-            },
-            {
-                "korisnik" : "test",
-                "text" : "Videla sam jednu belu macku kako luta blizu Slavije"
-            }, 
-            {
-                "korisnik" : "test",
                 "text" : "Bele macka je setala na parkiralistu Baba Visnjine!"
             }
         ]

@@ -74,7 +74,7 @@ $(document).ready(function () {
         let innerDiv = $("<div>", {
             'class': "col border rounded marginica",
         });
-        let h11 = $("<h4>");
+        let h11 = $("<h6>");
         h11.text("Oglas: " + naziv);
         h11.appendTo(innerDiv);
 
