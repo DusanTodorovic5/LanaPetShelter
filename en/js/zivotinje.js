@@ -6,30 +6,30 @@ var zivotinje = [
                 "naziv" : "Doki",
                 "rasa" : "Labrador",
                 "godine" : 1,
-                "pol" : "Mužjak",
+                "pol" : "Male",
                 "tezina" : 27,
-                "opis" : "Labrador star godinu. Jako umiljat i dobar je sa decom",
+                "opis" : "One year old labrador. Very suave and good with children.",
                 "slika" : "../../assets/psi/labrador1.jpg",
                 "stranica" : "doki.html"
             },
 
             {
                 "naziv" : "Šaci",
-                "rasa" : "Šnaucer",
+                "rasa" : "Schnauzer",
                 "godine" : 7,
-                "pol" : "Mužjak",
+                "pol" : "Male",
                 "tezina" : 50,
-                "opis" : "Snažan i poslušan šnaucer dobrog srca",
+                "opis" : "Strong, obedient and good-hearted schnauzer",
                 "slika" : "../../assets/psi/snaucer1.jpeg",
                 "stranica" : "saci.html"
             },
             {
                 "naziv" : "Teki",
-                "rasa" : "Ruski terijer",
+                "rasa" : "Russsian Terrier",
                 "godine" : 3,
-                "pol" : "Ženka",
+                "pol" : "Female",
                 "tezina" : 60,
-                "opis" : "Umiljata ženka ruskog terijera spremna za svoj novi dom",
+                "opis" : "Suave female russian terrier ready to be accepted into new home.",
                 "slika" : "../../assets/psi/terijer1.jpg",
                 "stranica" : "teki.html"
             }
@@ -40,31 +40,31 @@ var zivotinje = [
         "oglasi" : [
             {
                 "naziv" : "Begi",
-                "rasa" : "Bengalska mačka",
+                "rasa" : "Bengal cat",
                 "godine" : 10,
-                "pol" : "Ženka",
+                "pol" : "Female",
                 "tezina" : 5,
-                "opis" : "Jako lepa i graciozna bengalska mačka. Obožava da se mazi!",
+                "opis" : "Beautiful and gracious bengal cat. Loves to cuddle!",
                 "slika" : "../../assets/macke/begi1.jpg",
                 "stranica" : "begi.html"
             },
             {
                 "naziv" : "Šoki",
-                "rasa" : "Škotski fold",
+                "rasa" : "Scottish fold",
                 "godine" : 6,
-                "pol" : "Ženka",
+                "pol" : "Female",
                 "tezina" : 6,
-                "opis" : "Neverovatno umilljata mačka sive boje. Jako je nežna.",
+                "opis" : "Incredibly suave gray cat. Very gentle.",
                 "slika" : "../../assets/macke/soki1.jpg",
                 "stranica" : "soki.html"
             },
             {
                 "naziv" : "Zoki",
-                "rasa" : "Sfinks",
+                "rasa" : "Sphynx",
                 "godine" : 3,
-                "pol" : "Mužjak",
+                "pol" : "Male",
                 "tezina" : 7,
-                "opis" : "Neobična mačka sive boje. Ponaša se kao mali pas.",
+                "opis" : "An extraordinary gray cat. Acts like a little dog.",
                 "slika" : "../../assets/macke/zoki1.jpg",
                 "stranica" : "zoki.html"
             }
@@ -75,31 +75,31 @@ var zivotinje = [
         "oglasi" : [
             {
                 "naziv" : "Dragan",
-                "rasa" : "Konj",
+                "rasa" : "Horse",
                 "godine" : 4,
-                "pol" : "Mužjak",
+                "pol" : "Male",
                 "tezina" : 295,
-                "opis" : "Pravi plemenit srpski pastuv. Retka kombinacija boja.",
+                "opis" : "A true noble Serbian stallion. Very specific color combination.",
                 "slika" : "../../assets/konji/dragan1.jpg",
                 "stranica" : "dragan.html"
             },
             {
                 "naziv" : "Zoran",
-                "rasa" : "Konj",
+                "rasa" : "Horse",
                 "godine" : 14,
-                "pol" : "Mužjak",
+                "pol" : "Male",
                 "tezina" : 305,
-                "opis" : "Krupan konj braon boje. Miran je i obožava društvo.",
+                "opis" : "Large brown horse. Silent and loves company.",
                 "slika" : "../../assets/konji/zoran1.jpg",
                 "stranica" : "zoran.html"
             },
             {
                 "naziv" : "Esmeralda",
-                "rasa" : "Konj",
+                "rasa" : "Horse",
                 "godine" : 8,
-                "pol" : "Ženka",
+                "pol" : "Female",
                 "tezina" : 280,
-                "opis" : "Jako plemenita ženka konja. Izgleda kao bela griva. ",
+                "opis" : "A very noble female horse. Looks like a white crest.",
                 "slika" : "../../assets/konji/esmeralda1.jpg",
                 "stranica" : "esmeralda.html"
             }
@@ -110,31 +110,31 @@ var zivotinje = [
         "oglasi" : [
             {
                 "naziv" : "Rajan",
-                "rasa" : "Velika kapibara",
+                "rasa" : "Large kapibara",
                 "godine" : 5,
-                "pol" : "Mužjak",
+                "pol" : "Male",
                 "tezina" : 15,
-                "opis" : "Jednostavno voli vodu. Uspeo je i da nađe prijatelje. Jako razigran.",
+                "opis" : "Simply likes water. He also managed to find friends. A very playful capybara.",
                 "slika" : "../../assets/kapibare/rajan1.jpg",
                 "stranica" : "rajan.html"
             },
             {
                 "naziv" : "Beri",
-                "rasa" : "Standardna kapibara",
+                "rasa" : "Standard capybara",
                 "godine" : 2,
-                "pol" : "Ženka",
+                "pol" : "Female",
                 "tezina" : 7,
-                "opis" : "Prelepa ženkica standardne kapibare. Sitna je i jako pristojna.",
+                "opis" : "A beautiful female standard capybara. Petit and very polite.",
                 "slika" : "../../assets/kapibare/beri1.jpg",
                 "stranica" : "beri.html"
             },
             {
                 "naziv" : "Fića",
-                "rasa" : "Velika kapibara",
+                "rasa" : "Large capybara",
                 "godine" : 3,
-                "pol" : "Mužjak",
+                "pol" : "Male",
                 "tezina" : 16,
-                "opis" : "Jako druželjubiva kapibara. Krupnije građe, jako je miran.",
+                "opis" : "A very friendly capybara. Larger than usual and very calm.",
                 "slika" : "../../assets/kapibare/fica1.jpg",
                 "stranica" : "fica.html"
             }

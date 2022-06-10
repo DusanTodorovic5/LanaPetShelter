@@ -32,7 +32,7 @@ $(document).ready(function () {
             'class':"btn btn-success float-end go-to-button",
 
         });
-        btn.text("Saznaj vise");
+        btn.text("Find out more");
         btn.appendTo(innerDiv);
         btn.click(function (){
             localStorage.setItem("index", index);

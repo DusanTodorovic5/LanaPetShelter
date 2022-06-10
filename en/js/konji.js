@@ -75,7 +75,7 @@ $(document).ready(function () {
             'class': "btn btn-primary go-to-button",
         });
         a.attr("href", zivotinja.stranica);
-        a.text("Pregledaj");
+        a.text("Preview");
         a.appendTo(donjiDeo);
 
         donjiDeo.appendTo(kartica);
@@ -87,6 +87,7 @@ $(document).ready(function () {
     }
 
     function standard() {
+
         $("#holder-zivotinja").empty();
         for (let i = 0; i < moje_zivotinje.length; i++) {
             let el = get_element(moje_zivotinje[i]);
@@ -96,10 +97,10 @@ $(document).ready(function () {
 
     function godine(tip) {
         trenNiz = []
-        if (tip == "Sve starosti") {
+        if (tip == "All ages") {
             standard();
         }
-        else if (tip == "Bebe") {
+        else if (tip == "Babies") {
             $("#holder-zivotinja").empty();
             for (let i = 0; i < moje_zivotinje.length; i++) {
                 if (moje_zivotinje[i].godine < 1) {
@@ -118,7 +119,7 @@ $(document).ready(function () {
                 }
             }
         }
-        else if (tip == "Odrasli") {
+        else if (tip == "Adult") {
             $("#holder-zivotinja").empty();
             for (let i = 0; i < moje_zivotinje.length; i++) {
                 if (moje_zivotinje[i].godine >= 4 && moje_zivotinje[i].godine < 8) {

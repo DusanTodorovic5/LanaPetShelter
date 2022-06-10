@@ -61,7 +61,7 @@ $(document).ready(function () {
         "class" : "row",
     });
     let naslovH = $("<h2>");
-    naslovH.text("Moji komentari: ");
+    naslovH.text("My comments: ");
 
     naslovH.appendTo(naslovDiv);
 
@@ -75,11 +75,11 @@ $(document).ready(function () {
             'class': "col border rounded marginica",
         });
         let h11 = $("<h6>");
-        h11.text("Oglas: " + naziv);
+        h11.text("Ad: " + naziv);
         h11.appendTo(innerDiv);
 
         let h41 = $("<h5>");
-        h41.text("Komentar: " + komentar);
+        h41.text("Comment: " + komentar);
         h41.appendTo(innerDiv);
 
         innerDiv.appendTo(element);
