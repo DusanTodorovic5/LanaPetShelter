@@ -13,7 +13,11 @@ You can checkout webpage on [this link here](https://dusantodorovic5.github.io/L
   - Horses
   - Capybaras
  - Ads for lost pets
- - User login with credentials ``username: test; password: test``
+ - User login with credentials 
+  ```txt
+   username: test
+   password: test
+   ```
  - Posting your own ad for lost animals or leaving comment on some other ad
  - My account - option for checking all comments you left or checking your own ads with option to delete them
 
