@@ -50,7 +50,7 @@ $(document).ready(function () {
         });
         acl.attr("href", zivotinja.stranica);
         let kartica = $("<div>", {
-            'class': "card hoverable-link-card",
+            'class': "card hoverable-link-card w-100 h-100",
         });
 
         let slika = $("<img>", {
@@ -72,7 +72,7 @@ $(document).ready(function () {
         p.text(zivotinja.opis);
         p.appendTo(donjiDeo);
         let a = $("<p>", {
-            'class': "btn btn-primary go-to-button",
+            'class': "btn btn-primary go-to-button mt-auto",
         });
         a.attr("href", zivotinja.stranica);
         a.text("Pregledaj");

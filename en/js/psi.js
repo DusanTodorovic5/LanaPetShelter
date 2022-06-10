@@ -50,7 +50,7 @@ $(document).ready(function () {
         });
         acl.attr("href", zivotinja.stranica);
         let kartica = $("<div>", {
-            'class': "card hoverable-link-card",
+            'class': "card hoverable-link-card w-100 h-100",
         });
 
         let slika = $("<img>", {
@@ -72,7 +72,7 @@ $(document).ready(function () {
         p.text(zivotinja.opis);
         p.appendTo(donjiDeo);
         let a = $("<p>", {
-            'class': "btn btn-primary go-to-button",
+            'class': "btn btn-primary go-to-button mt-auto",
         });
         a.attr("href", zivotinja.stranica);
         a.text("Preview");
@@ -142,7 +142,7 @@ $(document).ready(function () {
 
 
     function sortPo(tip) {
-        if (tip == "Standardno sortiranje") {
+        if (tip == "Standard sort") {
             standard();
             return;
         }
@@ -151,14 +151,14 @@ $(document).ready(function () {
                 trenNiz.push(moje_zivotinje[i]);
             }
         }
-        if (tip == "Po nazivu ↑") {
+        if (tip == "By name ↑") {
             trenNiz.sort(compareNazivRast);
-        } else if (tip == "Po nazivu ↓") {
+        } else if (tip == "By name ↓") {
             trenNiz.sort(compareNazivOpad);
-        } else if (tip == "Po starosti ↑") {
+        } else if (tip == "By age ↑") {
             trenNiz.sort(compareGodineRast);
         }
-        else if (tip == "Po starosti ↓") {
+        else if (tip == "By age ↓") {
             trenNiz.sort(compareGodineOpad);
         }
         $("#holder-zivotinja").empty();
